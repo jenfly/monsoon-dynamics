@@ -1,0 +1,13 @@
+name: monsoon
+channels:
+- conda-forge
+dependencies:
+- python=2.7
+- ipykernel
+- numpy
+- matplotlib
+- pandas
+- netcdf4
+- xarray
+- basemap
+- PyPDF2
