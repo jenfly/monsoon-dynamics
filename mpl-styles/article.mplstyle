@@ -1,0 +1,33 @@
+font.family         : sans-serif
+font.sans-serif     : Helvetica, Arial, Bitstream Vera Sans, Lucida Grande, Verdana, Geneva, Lucid, Avant Garde, sans-serif
+font.size           : 10.0
+
+axes.titlesize      : medium   # fontsize of the axes title
+axes.labelsize      : medium  # fontsize of the x any y labels
+xtick.major.size     : 3      # major tick size in points
+xtick.labelsize      : medium # fontsize of the tick labels
+xtick.direction      : in     # direction: in, out, or inout
+ytick.major.size     : 3      # major tick size in points
+ytick.labelsize      : medium # fontsize of the tick labels
+ytick.direction      : in     # direction: in, out, or inout
+
+grid.color       :   black   # grid color
+grid.linestyle   :   :       # dotted
+grid.linewidth   :   0.5     # in points
+grid.alpha       :   1.0     # transparency, between 0.0 and 1.0
+
+legend.fontsize      : small
+legend.handlelength  : 2     # the length of the legend lines in fraction of fontsize
+legend.handleheight  : 0.7     # the height of the legend handle in fraction of fontsize
+legend.frameon       : False   # whether or not to draw a frame around legend
+#legend.framealpha    : None    # opacity of of legend frame
+
+figure.subplot.left    : 0.125  # the left side of the subplots of the figure
+figure.subplot.right   : 0.9    # the right side of the subplots of the figure
+figure.subplot.bottom  : 0.1    # the bottom of the subplots of the figure
+figure.subplot.top     : 0.9    # the top of the subplots of the figure
+figure.subplot.wspace  : 0.2    # the amount of width reserved for blank space between subplots
+figure.subplot.hspace  : 0.2    # the amount of height reserved for white space between subplots
+
+savefig.bbox        : tight # 'tight' or 'standard'.
+savefig.pad_inches  : 0.1      # Padding to be used when bbox is set to 'tight'
